@@ -203,6 +203,10 @@ img {
   top: 0;
 }
 
+.shadow-header {
+  box-shadow: 0 4px 16px hsla(22, 100%, 8%, 0.1);
+}
+
 .home__container {
   padding-block: 3rem 2rem;
   justify-content: center;
