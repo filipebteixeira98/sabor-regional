@@ -599,3 +599,16 @@ img {
   font-size: var(--small-font-size);
   margin-top: 3.5rem;
 }
+
+::webkit-scrollbar {
+  width: 0.6rem;
+  background-color: hsl(34, 16%, 75%);
+}
+
+::webkit-scrollbar-thumb {
+  background-color: hsl(34, 16%, 65%);
+}
+
+::webkit-scrollbar-thumb {
+  background-color: hsl(34, 16%, 55%);
+}
