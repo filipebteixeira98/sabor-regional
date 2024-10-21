@@ -207,6 +207,10 @@ img {
   box-shadow: 0 4px 16px hsla(22, 100%, 8%, 0.1);
 }
 
+.active-link::after {
+  width: 60%;
+}
+
 .home__container {
   padding-block: 3rem 2rem;
   justify-content: center;
