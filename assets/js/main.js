@@ -33,3 +33,13 @@ const shadowHeader = () => {
 };
 
 window.addEventListener('scroll', shadowHeader);
+
+const scrollUp = () => {
+  const scrollUpElement = document.getElementById('scroll-up');
+
+  this.scrollY >= 350
+    ? scrollUpElement.classList.add('show-scroll')
+    : scrollUpElement.classList.remove('show-scroll');
+};
+
+window.addEventListener('scroll', scrollUp);
